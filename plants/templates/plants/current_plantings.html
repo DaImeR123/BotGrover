@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Текущие посадки</title>
+</head>
+<body>
+    <h1>Текущие посадки</h1>
+    <table border="1">
+        <tr>
+            <th>Культура</th>
+            <th>Дата посадки</th>
+            <th>Созреет</th>
+            <th>Крайний срок продажи</th>
+            <th>Статус</th>
+            <th>Количество</th>
+        </tr>
+        {% for planting in plantings %}
+        <tr>
+            <td>{{ planting.culture.name }}</td>
+            <td>{{ planting.plant_date }}</td>
+            <td>{{ planting.harvest_date }}</td>
+            <td>{{ planting.sale_deadline }}</td>
+            <td>{{ planting.get_status_display }}</td>
+            <td>{{ planting.quantity }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>
