@@ -4,33 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e0984c9-e0e1-4232-b042-494f6d234682" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/pythonProject1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plants/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plants/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plants/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plants/management/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plants/management/commands/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plants/management/commands/update_statuses.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plants/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plants/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plants/templates/plants/current_plantings.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plants/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plants/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/telegram_bot.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zelen_pro/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zelen_pro/asgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zelen_pro/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zelen_pro/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zelen_pro/wsgi.py" afterDir="false" />
+    <list default="true" id="6e0984c9-e0e1-4232-b042-494f6d234682" name="Changes" comment="1">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/telegram_bot.py" beforeDir="false" afterPath="$PROJECT_DIR$/telegram_bot.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +23,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SET_USER_NAME_GLOBALLY" value="false" />
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 7
@@ -107,6 +85,27 @@
       <option name="presentableId" value="Default" />
       <updated>1738441051812</updated>
     </task>
+    <task id="LOCAL-00001" summary="1">
+      <option name="closed" value="true" />
+      <created>1738446958205</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1738446958205</updated>
+    </task>
+    <task id="LOCAL-00002" summary="1">
+      <option name="closed" value="true" />
+      <created>1738446974459</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1738446974459</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1" />
+    <option name="LAST_COMMIT_MESSAGE" value="1" />
   </component>
 </project>
