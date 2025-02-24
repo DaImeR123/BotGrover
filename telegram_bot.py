@@ -11,7 +11,7 @@ django.setup()
 
 from plants.models import Planting
 
-TOKEN = "5447861520:AAHeBhte_6lCeo8fPqh1o3haymFAXCF-c6g"  # Замените на ваш токен
+TOKEN = ""  # Замените на ваш токен
 
 
 @sync_to_async
