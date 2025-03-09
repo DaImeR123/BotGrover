@@ -34,7 +34,7 @@ EDIT_QUANTITY = 0
 TOKEN = os.getenv('TELEGRAM_BOT_TOKEN')
 
 if not TOKEN:
-    raise ValueError("Не найден токен бота. Убедитесь, что в файле .env указана переменная TELEGRAM_BOT_TOKEN")
+    raise ValueError("Не найден токен бота. Где он?. Убедитесь, что в файле .env указана переменная TELEGRAM_BOT_TOKEN")
 
 @sync_to_async
 def get_available_cultures():
@@ -466,6 +466,9 @@ async def button_handler(update: Update, context: ContextTypes.DEFAULT_TYPE):
                 parse_mode="Markdown"
             )
 
+async def get_id(update: Update, context: ContextTypes.DEFAULT_TYPE):
+    await update.message.reply_text(f"Ваш Chat ID: {update.effective_chat.id}")
+
 def main():
     """Запуск бота"""
     application = Application.builder().token(TOKEN).build()
@@ -506,6 +509,9 @@ def main():
     
     # Добавляем обработчик для остальных кнопок (delete и sell)
     application.add_handler(CallbackQueryHandler(button_handler))
+
+    # Добавляем обработчик команды get_id
+    application.add_handler(CommandHandler('get_id', get_id))
 
     # Запуск
     application.run_polling()
