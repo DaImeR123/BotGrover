@@ -2,9 +2,9 @@ name: BotGrover CI/CD
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "master" ]
   pull_request:
-    branches: [ "main" ]
+    branches: [ "master" ]
 
 env:
   TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
@@ -67,7 +67,7 @@ jobs:
         echo "#!/bin/bash
         set -e
         cd ~/BotGrover
-        git pull origin main
+        git pull origin master
         source venv/bin/activate
         pip install -r requirements.txt
         python manage.py migrate
